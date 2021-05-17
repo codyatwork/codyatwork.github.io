@@ -38,14 +38,21 @@ h1 {
     transform: rotate(-5deg);
 }
 
-.linkedin {
+.profile-links {
+    display: flex;
     position: absolute;
-    color: inherit;
+    gap: 1rem;
     right: 1rem;
     bottom: 1rem;
 }
 
-.feather-linkedin {
+.profile-links a {
+    color: inherit;
+}
+
+.feather {
+    height: auto;
+    width: clamp(1.5rem, 1.1250rem + 1.6667vw, 2rem);
     vertical-align: top;
 }
 
@@ -89,7 +96,7 @@ h2 {
     margin: 0;
 }
 
-.subheading {
+.stack {
     margin-top: 0;
 }
 
@@ -151,11 +158,6 @@ li:not(:last-child) {
 
 .button:focus {
     box-shadow: 0 0 0 0.25rem #9E95DB;
-}
-
-.calligraphy {
-    font-family: 'Pinyon Script', cursive;
-    font-weight: 400;
 }
 
 footer {
