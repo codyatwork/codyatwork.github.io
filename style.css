@@ -19,10 +19,10 @@ body {
 
 header {
     display: flex;
-    background: var(--indigo-dye);
-    color: var(--isabelline);
     position: relative;
     align-items: center;
+    background: var(--indigo-dye);
+    color: var(--isabelline);
     height: clamp(24rem, 16.5rem + 33.3333vw, 34rem);
     justify-content: center;
     padding: 2rem;
