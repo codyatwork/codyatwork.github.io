@@ -147,7 +147,7 @@ li:not(:last-child) {
     right: 100%;
     bottom: 0;
     left: 0;
-    transition: right .15s ease-in-out;
+    transition: right .15s cubic-bezier(0, 0, 0.2, 1);
     z-index: -1;
 }
 
