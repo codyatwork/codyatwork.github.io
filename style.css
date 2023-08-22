@@ -201,7 +201,6 @@ footer {
 }
 
 @media (prefers-reduced-motion) {
-
     .button:hover,
     .button:focus {
         background: var(--accent);
