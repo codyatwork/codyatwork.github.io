@@ -60,7 +60,7 @@ main {
     background: var(--isabelline);
     color: var(--indigo-dye);
     font-family: 'Lora', serif;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 500;
 }
 
